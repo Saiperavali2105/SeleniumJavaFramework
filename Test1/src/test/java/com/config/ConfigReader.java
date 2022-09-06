@@ -20,7 +20,7 @@ public class ConfigReader {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println(e);
+			System.out.println("Eception"+e);
 		}
 	}
 
