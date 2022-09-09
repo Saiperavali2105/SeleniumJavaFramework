@@ -23,11 +23,11 @@ Feature: verification of login
   @tag2
   Scenario Outline: verification of login
     Given User is on home screen
-    When I enter username "username"
-    And I enter password "password"
+    When I enter username "<username>"
+    And I enter password "<password>"
     #Then I verify the successful login
 
-    Examples: 
+   Examples: 
       | username  | password | 
-      | name1 |    password1 |
+      | name |    password |
       #| name2 |     password2 |
